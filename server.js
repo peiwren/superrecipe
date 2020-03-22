@@ -16,7 +16,7 @@ if (process.env.NODE_ENV === "production") {
 app.use(routes);
 
 // Connect to the Mongo DB 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://pr:super1@ds029797.mlab.com:29797/heroku_qv4j11xc", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/super", {
   useCreateIndex: true,
   useNewUrlParser: true
 });
