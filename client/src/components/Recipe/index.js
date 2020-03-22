@@ -51,7 +51,7 @@ function Recipe({
             >
               Recipe
             </a>
-            <Button />
+            {/* <Button /> */}
           </div>
         </Col>
       </Row>

@@ -18,7 +18,7 @@ module.exports = {
     const title = req.body.strMeal;
     const imageURL = req.body.strMealThumb;
     const itemURL = req.body.strYoutube;
-    const itemURL2 = recipe.strSource,
+    const itemURL2 = req.body.strYoutube;
     const instr = req.body.strInstructions;
 
     db.Recipe.create({
