@@ -1,0 +1,100 @@
+.container {
+  max-width: 101% !important;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+}
+
+.hero {
+  background: url(./food_v.svg);
+  height: 800px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero * {
+  position: relative;
+  z-index: 2;
+}
+
+.hero h1,
+.hero h2 {
+  color: rgb(180, 25, 25);
+}
+
+.hero h2 {
+  line-height: 0.2;
+  margin-top: 1%;
+}
+
+.hero h1 {
+  font-size: 3.9em;
+  color: rgb(6, 14, 15);
+  padding-top: 23%;
+  margin-top: 1%;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+/*  No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 357px) {
+  .hero {
+    height: 500px;
+  }
+  .hero h1 {
+    font-size: 2.1em;
+    color: rgb(6, 14, 15);
+    padding-top: 26%;
+  }
+}
+
+@media (min-width: 576px) {
+  /* Medium devices (tablets, 768px and up) */
+}
+@media (min-width: 768px) {
+  .hero h1 {
+    font-size: 2.9em;
+    color: rgb(6, 14, 15);
+    padding-top: 20%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .hero {
+    background: url(./food_h.svg);
+    height: 390px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+}
+
+
+@media (min-width: 1000px) {
+  .hero h1 {
+    font-size: 2.9em;
+    color: rgb(6, 14, 15);
+    padding-top: 9%;
+  }
+
+  .hero h2 {
+    margin-top: -3%;
+  }
+}
+
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .hero h1 {
+    font-size: 2.9em;
+    color: rgb(6, 14, 15);
+    padding-top: 8%;
+  }
+  .hero h2 {
+    margin-top: -3%;
+  }
+}

@@ -1,0 +1,51 @@
+h2 {
+  color: white;
+}
+.recipetitle {
+  color: black;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: rgb(43, 63, 33) !important;
+  border: none;
+  width: 6.5em;
+}
+.btn-primary:hover {
+  background-color: rgb(122, 150, 109) !important;
+}
+.howto {
+  margin-top: 1%;
+}
+
+.youtube {
+  padding: 0.38em 30px;
+  color: white;
+  background-color: rgb(168, 12, 12);
+  text-decoration: none;
+  border: none;
+  border-radius: 2;
+}
+
+.youtube:hover {
+  color: white;
+  background-color: rgb(160, 80, 80);
+}
+
+@media (max-width: 1800px) {
+}
+
+@media (max-width: 767px) {
+  .howto {
+    margin-top: 6%;
+  }
+  .btn-container {
+    float: left;
+    margin-bottom: 15px;
+    color: #fff;
+    background-color: rgb(43, 63, 33);
+    border: none;
+  }
+}

@@ -1,0 +1,91 @@
+.savedrecipes {
+  margin-left: 3.9%;
+  margin-top: 11%;
+  font-size: 2em;
+}
+.card-body {
+  background-color: #30352b;
+}
+
+input {
+  margin-top: 11%;
+}
+
+btn .extra {
+  display: none;
+}
+
+.text-center {
+  padding-left: 3.9% !important;
+}
+.extra{
+  background-color: #30352b!important;
+  border: none;
+}
+
+/* input styles */
+.App {
+  font-family: sans-serif;
+  width: 100%;
+  margin: 0 auto;
+  padding: 15%;
+}
+
+h1 {
+  size: 1em;
+  color: white;
+  text-align: center;
+  margin-top: -8%;
+  margin-bottom: 5%;
+}
+
+form {
+  max-width: 300px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+label,
+input {
+  display: block;
+  min-width: 290px;
+  width: 100%;
+}
+
+label {
+  margin-bottom: 5px;
+  height: 22px;
+  color: white;
+}
+
+input {
+  margin-top: 5%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #777;
+}
+
+input.error {
+  border-color: red;
+}
+
+.input-feedback {
+  color: rgb(235, 54, 54);
+  margin-top: -15px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 8px 19px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: rgb(70, 153, 179);
+}

@@ -1,0 +1,17 @@
+.card {
+  box-shadow: none;
+  border: none !important;
+  border-radius: none !important;
+}
+.col-md-12 {
+  margin-top: -26px;
+}
+
+.card-header {
+  background-color: transparent;
+  border-bottom: none;
+}
+
+.btn-container{
+  margin-top:4.6%;
+}
