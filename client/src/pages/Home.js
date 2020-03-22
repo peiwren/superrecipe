@@ -52,6 +52,7 @@ class Home extends Component {
       title: recipe.strMeal,
       imageURL: recipe.strMealThumb,
       itemURL: recipe.strYoutube,
+      itemURL2: recipe.strSource,
       instr: recipe.strInstructions
     }).then(() => this.getRecipes());
   };
@@ -93,12 +94,13 @@ class Home extends Component {
                       title={recipe.strMeal}
                       imageURL={recipe.strMealThumb}
                       itemURL={recipe.strYoutube}
+                      itemURL2={recipe.strSource}
                       instr={recipe.strInstructions}
                       Button={() => (
                         <button
                           type="button"
                           onClick={() => this.handleRecipeSave(recipe)}
-                          className="btn btn-primary ml-2"
+                          className="btn btn-primary ml-2 savebtn"
                         >
                           Save
                         </button>

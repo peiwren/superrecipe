@@ -10,6 +10,7 @@ function Recipe({
   title,
   imageURL,
   itemURL,
+  itemURL2,
   instr,
   Button,
   _id,
@@ -39,6 +40,16 @@ function Recipe({
               href={itemURL}
             >
               Video
+            </a>
+            <a
+              className="btn source"
+              // target="_blank"
+              rel="noopener noreferrer"
+              target="_blank"
+              // href={link}
+              href={itemURL2}
+            >
+              Recipe
             </a>
             <Button />
           </div>

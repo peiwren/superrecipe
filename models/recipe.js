@@ -5,6 +5,7 @@ const recipeSchema = new Schema({
   title: { type: String, required: true },
   imageURL: { type: String, required: true },
   itemURL: { type: String, required: true },
+  itemURL2: { type: String, required: true },
   instr: { type: String, required: true },
   mealdbId: { type: String, required: true }
 });

@@ -18,12 +18,14 @@ module.exports = {
     const title = req.body.strMeal;
     const imageURL = req.body.strMealThumb;
     const itemURL = req.body.strYoutube;
+    const itemURL2 = recipe.strSource,
     const instr = req.body.strInstructions;
 
     db.Recipe.create({
       title,
       imageURL,
       itemURL,
+      itemURL2,
       instr
     })
       .then(dbRecipe => res.send(dbRecipe))

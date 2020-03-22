@@ -67,7 +67,7 @@ class Nav extends Component {
                 Search
               </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link
                 to="/saved"
                 onClick={this.toggleNav}
@@ -79,7 +79,7 @@ class Nav extends Component {
               >
                 Saved
               </Link>
-            </li>
+            </li> */}
 
             <li>
               <a>
